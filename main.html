@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zihan | Porifolio</title>
+
+    <!-- External CSS add -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="banner">
+        <nav class="navbar">
+            <!-- Navbar logo -->
+            <div class="navbar-logo">
+                <h1>Z</h1>
+            </div>
+            <!-- Navbar items -->
+            <ul class="navbar-items">
+                <li><a href="">About</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <!-- Sidebar for mobile device -->
+            <ul id="sidebar">
+                <li id="closebar"><a href=""><img src="icons/xmark-solid.svg" alt=""></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <!-- Menubar for mobile device -->
+            <img id="menu-bar" src="icons/bars-solid.svg" alt="3bar">
+        </nav>
+        <!-- Banner middle content -->
+        <div class="banner-content">
+            <h1>Zihanur Rahman</h1>
+            <p>I'm a <span id="auto-type"></span></p>
+        </div>
+        <div class="banner-social-content">
+            <div><img src="icons/github.svg" alt=""></div>
+            <div><img src="icons/facebook.svg" alt=""></div>
+            <div><img src="icons/linkedin.svg" alt=""></div>
+            <div><img src="icons/skype.svg" alt=""></div>
+            <div><img src="icons/instagram.svg" alt=""></div>
+        </div>
+        <div class="banner-language-contant">
+            <p>ENG</p>
+            <p>BNG</p>
+        </div>
+    </section>
+
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/890395d79a.js" crossorigin="anonymous"></script>
+
+    <!-- auto type Script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed("#auto-type",{
+            strings: ["MERN Stack Developer","Web Developer","Frontend Developer"],
+            typeSpeed: 50,
+            backSpeed: 30,
+            startDelay: 500,
+            loop: true
+        })
+    </script>
+    <!-- Extermal js file added -->
+    <script src="js/script.js"></script>
+</body>
+</html>
